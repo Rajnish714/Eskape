@@ -3,17 +3,20 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav
+      className="navbar navbar-expand-md sticky-top navbar-dark bg-dark"
+      id="navbar"
+    >
       <div className="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
             <Link className="nav-link" to="#">
-              Link
+              Home
             </Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="#">
-              Link
+              Travel guide
             </Link>
           </li>
         </ul>

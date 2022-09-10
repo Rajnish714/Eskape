@@ -1,8 +1,18 @@
-.container {
+/* .container {
   background: rgb(143, 255, 143);
 }
+*/
 
 .container {
   margin-top: 20px;
   margin: 2px;
+}
+img {
+  width: 600px;
+  height: 500px;
+}
+
+.col {
+  padding: 100px;
+  border: 2px solid black;
 }
